@@ -2,7 +2,6 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-// Function to get content type based on file extension
 function getContentType(filePath) {
   const extname = path.extname(filePath);
   switch (extname) {
